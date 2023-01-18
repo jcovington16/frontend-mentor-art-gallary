@@ -15,12 +15,22 @@
 }
 
 .section1 {
-    display: flex;
+    padding: 45px 0;
+}
 
+.section1 div {
+    display: flex;
 }
 
 section h1 {
     font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    width: 514px;
+    height: 176px;
+    top: 189px;
+    left: 165px;
+    size: 96px;
+    line-height: 88px;
 }
 
 footer {
@@ -32,8 +42,10 @@ footer {
     
 }
 
-footer h4 {
-    font-family: 'Big Shoulders Display', cursive;
+footer h3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    height: 58px;
+    width: 159px;
 }
 
 footer p {
@@ -43,7 +55,7 @@ footer p {
     position: absolute;
     font-weight: 300;
     line-height: 28px;
-    word-wrap: break-word;
+    word-wrap: normal;
 }
 
 footer ul {
